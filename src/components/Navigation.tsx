@@ -10,7 +10,8 @@ import {
   BookOpen, 
   Plus, 
   LayoutDashboard,
-  Users 
+  Users,
+  Heart 
 } from "lucide-react";
 
 const Navigation = () => {
@@ -22,6 +23,7 @@ const Navigation = () => {
     { path: "/dashboard", label: "Painel", icon: LayoutDashboard },
     { path: "/map", label: "Mapa das Hortas", icon: MapPin },
     { path: "/recipes", label: "Receitas", icon: BookOpen },
+    { path: "/donations", label: "Doações", icon: Heart },
     { path: "/producer", label: "Área do Produtor", icon: Users },
   ];
 

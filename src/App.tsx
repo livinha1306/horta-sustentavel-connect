@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Map from "./pages/Map";
 import Recipes from "./pages/Recipes";
+import Donations from "./pages/Donations";
 import Producer from "./pages/Producer";
 import NotFound from "./pages/NotFound";
 
@@ -28,6 +29,7 @@ const App = () => (
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/map" element={<Map />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/donations" element={<Donations />} />
             <Route path="/producer" element={<Producer />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
